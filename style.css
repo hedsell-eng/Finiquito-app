@@ -1,0 +1,137 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://img.freepik.com/foto-gratis/textura-papel-blanco_1194-2301.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 6px rgba(0, 191, 255, 0.2);
+}
+
+.form-container,
+#resultado {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #00bfff;
+  display: block;
+  box-shadow: 0 2px 6px rgba(0,191,255,0.2);
+}
+
+.form-container {
+  background-image: url('https://javierdretlaboral.wordpress.com/wp-content/uploads/2012/12/finiquito.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.form-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.form-container * {
+  position: relative;
+}
+
+label {
+  margin-top: 12px;
+  display: block;
+  font-weight: bold;
+}
+
+input, select {
+  width: auto;
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,191,255,0.2);
+  border: 1px solid #00bfff;
+  background-color: #f9f9f9;
+  margin-top: 5px;
+}
+
+.paga-option {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 5px;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,191,255,0.2);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.paga-option:hover {
+  background-color: #00bfff;
+  color: white;
+}
+
+.paga-option.selected {
+  background-color: #0078D4;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,191,255,0.3);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 2px 6px rgba(0,191,255,0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00bfff;
+  transform: scale(1.05);
+  box-shadow: 0 3px 8px rgba(0,191,255,0.4);
+}
+
+#resultado {
+  background-image: url('https://www.ceca.es/wp-content/uploads/2023/08/euros.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  position: relative;
+}
+
+#resultado::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#resultado * {
+  position: relative;
+}
+
+#resultado h3 {
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding-bottom: 5px;
+  text-align: center;
+}
